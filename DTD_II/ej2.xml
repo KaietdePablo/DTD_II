@@ -1,0 +1,27 @@
+<!-- 
+Nombre: Kaiet de Pablo
+Curso: ASIR
+Fecha: 03/04/2025
+Ejercicio: Equipos NBA
+-->
+<!DOCTYPE EquiposNBA SYSTEM "equiposNBA.dtd">
+<EquiposNBA>
+  <equipo conferencia="Este">
+    <nombre>Miami Heat</nombre>
+    <titulos>3</titulos>
+    <posicion>2</posicion>
+    <quinteto>Lowry, Herro, Butler, Adebayo, Tucker</quinteto>
+  </equipo>
+  <equipo conferencia="Oeste">
+    <nombre>Golden State Warriors</nombre>
+    <titulos>6</titulos>
+    <posicion>1</posicion>
+    <quinteto>Curry, Thompson, Green, Wiggins, Looney</quinteto>
+  </equipo>
+  <equipo conferencia="Este">
+    <nombre>Boston Celtics</nombre>
+    <titulos>17</titulos>
+    <posicion>3</posicion>
+    <quinteto>Smart, Brown, Tatum, Horford, Williams</quinteto>
+  </equipo>
+</EquiposNBA>

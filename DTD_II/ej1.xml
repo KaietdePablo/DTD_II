@@ -1,0 +1,37 @@
+
+<!-- 
+Nombre: Kaiet de Pablo
+Curso: ASIR
+Fecha: 03/04/2025
+Ejercicio: Factura electrónica
+-->
+<!DOCTYPE factura SYSTEM "factura.dtd">
+<factura numero="1" fecha="2025-04-03">
+  <datos-emisor>
+    <nombre>Librería El Buen Libro</nombre>
+    <cif>B12345678</cif>
+    <telefono>912345678</telefono>
+  </datos-emisor>
+  <datos-cliente>
+    <nombre>Biblioteca Municipal</nombre>
+    <cif>C87654321</cif>
+    <telefono>987654321</telefono>
+  </datos-cliente>
+  <detalle-factura importe="150.00">
+    <linea codigo-articulo="1" tipo="Libro" importe="50.00">
+      <descripcion>Historia del Arte</descripcion>
+      <cantidad>1</cantidad>
+      <pvp>50.00</pvp>
+    </linea>
+    <linea codigo-articulo="2" tipo="DVD" importe="30.00">
+      <descripcion>Documentales sobre Historia</descripcion>
+      <cantidad>2</cantidad>
+      <pvp>15.00</pvp>
+    </linea>
+    <linea codigo-articulo="3" tipo="Varios" importe="70.00">
+      <descripcion>Revistas de Arte</descripcion>
+      <cantidad>7</cantidad>
+      <pvp>10.00</pvp>
+    </linea>
+  </detalle-factura>
+</factura>
